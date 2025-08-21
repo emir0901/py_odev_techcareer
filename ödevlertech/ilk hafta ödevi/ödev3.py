@@ -1,0 +1,1 @@
+metin = input("Bir metin giriniz: ")ilk_kar = metin[0] if len(metin) > 0 else ""son_kar = metin[-1] if len(metin) > 0 else ""uzunluk = len(metin)tersi = metin[::-1]print("İlk:", ilk_kar, "Son:", son_kar, "Uzunluk:", uzunluk, "Ters:", tersi)
